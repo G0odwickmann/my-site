@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма Гадальшина П11</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <header class="clearfix">
+            <a href="index.html" id="logo"><span class="pink">Сайт</span> <i>визитка</i></a>
+        <nav id="mainnav">
+            <ul>
+                <li><a href="uslugi.html">Услуги</a></li>
+                <li><a href="onas.html">О нас</a></li>
+                <li><a href="clients.html">Клиенты</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+        <form action="" id="contact-form">
+            <div class="form_item">
+                <label for="topic">Teмa</label><br>
+                <select name="topic" id="topic" required>
+                    <option value="0">Не выбрано</option>
+                    <option value="1">Заказать Услугу</option>
+                    <option value="2">Оставить отзыв/замечание</option>
+                    <option value="3">Предложить Сотрудничество</option>
+                    <option value="4">Другое</option>
+                </select>
+            </div><br>
+
+            <div class="form_item">
+                <label for="name">Имя</label><br>
+                <input name="name" id="name" type="text" placeholder="Ваше имя" required>
+            </div><br>
+
+            <div class="form_item">
+                <label for="email">E-mail</label><br>
+                <input type="email" placeholder="Ваш Email" required>
+            </div><br>
+
+            <div class="form_item">
+                <label for="tel">Телефон</label><br>
+                <input type="tel" placeholder="Ваш Телефон" required>
+            </div><br>
+
+            <div class="form_item">
+                <label for="date">Дедлайн</label><br>
+                <input type="date" required>
+            </div><br>
+
+            <div class="form_item">
+                <label for="textarea">Текст сообщения</label><br>
+                <textarea name="textarea" id="" rows="6" placeholder="Ваше сообщение" required></textarea>
+            </div><br>
+
+            <div class="form_item">
+                <input type="submit">
+            </div><br>
+        </form>
+        </main>
+    </div>
+
+    <footer>
+        <a href="form.html"><p class="footer_block" id="napisatnam">Написать нам &#9650;</p></a>
+        
+        <p class="footer_block">&copy; Новая компания</p>
+        <div class="footer_icons">
+            <a href="" target="_blank"><img src="img/иконки соц. сетей/vk.png" alt="" class="footer_img"></a>
+
+            <a href="" target="_blank"><img src="img/иконки соц. сетей/ok.png" alt="" class="footer_img"></a>
+
+            <a href="" target="_blank"><img src="img/иконки соц. сетей/mailru.png" alt="" class="footer_img"></a>
+        </div>
+    </footer>
+</body>
+</html>
